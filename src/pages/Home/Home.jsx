@@ -1,10 +1,11 @@
 import React from 'react'
+import Arrange from '../Arrange/Arrange'
 
 
 const Home = () => {
   return (
-    <div>Home
-       
+    <div>
+       <Arrange/>
     </div>
   )
 }
