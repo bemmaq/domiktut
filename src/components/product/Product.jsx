@@ -7,7 +7,7 @@ import icon3 from "../../assets/icon3.svg";
 import icon4 from "../../assets/icon4.svg";
 import { Link } from "react-router-dom";
 
-const Get = () => {
+const Product = () => {
   const { shopData } = useSelector((state) => state.shop);
   const dispatch = useDispatch();
 
@@ -71,4 +71,4 @@ const Get = () => {
   );
 };
 
-export default Get;
+export default Product;
