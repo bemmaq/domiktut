@@ -59,7 +59,8 @@ const Header = () => {
                 <option>Ыссык-Кол</option>
               </select>
             </div>
-            <div className="">
+           <Link to={'/catalog'}>
+           <div className="">
               <button
                 style={{
                   boxShadow: "0px 4px 6px rgba(128, 128, 128, 0.6)",
@@ -69,6 +70,7 @@ const Header = () => {
                 Каталог
               </button>
             </div>
+           </Link>
           </div>
 
           <div className="flex text-white gap-[30px]">
