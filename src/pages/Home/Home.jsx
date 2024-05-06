@@ -1,10 +1,11 @@
 import React from 'react'
+import Get from '../../components/Get/Get'
 
 
 const Home = () => {
   return (
     <div>
-      home
+      <Get/>
     </div>
   )
 }
