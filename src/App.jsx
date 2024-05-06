@@ -7,7 +7,7 @@ import Catalog from './pages/Catalog/Catalog'
 const App = () => {
   return (
     <div>
-      
+      <Catalog/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
