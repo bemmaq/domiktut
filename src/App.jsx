@@ -8,7 +8,7 @@ import Housing from './pages/Housing/Housing'
 const App = () => {
   return (
     <div>
-      
+      <Catalog/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
