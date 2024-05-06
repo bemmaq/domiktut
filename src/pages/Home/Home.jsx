@@ -1,8 +1,11 @@
-import React from 'react'
+import Done from "../Done/Done"
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+	 <div>
+		<Done/>
+	 </div>
   )
 }
 
