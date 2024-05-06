@@ -1,3 +1,6 @@
+
+import Done from "../Done/Done"
+
 import React from 'react'
 import Arrange from '../Arrange/Arrange'
 import Questions from '../Questions/Questions'
@@ -7,8 +10,14 @@ import Housing from '../Housing/Housing'
 import { Link } from 'react-router-dom'
 
 
+
 const Home = () => {
   return (
+
+	 <div>
+		<Done/>
+	 </div>
+
     <div>
 
       home
@@ -25,6 +34,7 @@ const Home = () => {
        <Footer/>
 
     </div>
+
   )
 }
 
