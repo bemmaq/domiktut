@@ -1,8 +1,11 @@
+
+
+
+
 import React from "react";
 import bg from "../../assets/svg/bg_photo.svg";
 
 
-import Footer2 from "../Footer2/Footer2";
 const Footer = () => {
   return (
     <>
@@ -25,5 +28,6 @@ const Footer = () => {
     </>
   );
 };
+
 
 export default Footer;

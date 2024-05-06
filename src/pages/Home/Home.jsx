@@ -3,28 +3,24 @@ import Arrange from '../Arrange/Arrange'
 import Questions from '../Questions/Questions'
 
 import About from '../About/About'
-import Housing from '../Housing/Housing'
-import { Link } from 'react-router-dom'
 
-import Footer from '../../components/Footer/Footer'
+
+
+import Get from './../../components/Get/Get';
 
 
 const Home = () => {
   return (
     <div>
    
-      home
-      <Link to={'/filter'}>
-      <button >Click
+     
 
-
-</button>
-      </Link>
+      <Get/>
       
       <About/>
        <Arrange/>
        <Questions/>
-       <Footer/>
+      
       
 
     </div>

@@ -16,7 +16,7 @@ const Arrange = () => {
   };
   return (
     <Container>
-      <h2 className="text-3xl font-raleway">Можем организовать для Вас</h2>
+      <h2 className="text-3xl font-raleway ">Можем организовать для Вас</h2>
       <div className="mt-10 bg-white ">
         <div className="flex justify-between">
           <div
