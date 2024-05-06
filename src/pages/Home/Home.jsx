@@ -1,12 +1,12 @@
 import React from 'react'
-import Product from '../../components/product/Product'
+import Get from '../../components/Get/Get'
 
 
 
 const Home = () => {
   return (
     <div>
-      <Product/>
+      <Get/>
     </div>
   )
 }
