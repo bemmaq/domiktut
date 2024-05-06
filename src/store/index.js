@@ -9,5 +9,13 @@ const store = configureStore({
         card:cardSlice
     }
 })
+<<<<<<< HEAD
+=======
+
+export default store
+
+
+
+>>>>>>> 9b30b72886ec166d250cce87c23518233b1a095c
 export default store
 
