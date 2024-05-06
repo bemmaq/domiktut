@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
+
+      home
       <Link to={'/filter'}>
       <button >Click
 
@@ -21,6 +23,7 @@ const Home = () => {
        <Arrange/>
        <Questions/>
        <Footer/>
+
     </div>
   )
 }
