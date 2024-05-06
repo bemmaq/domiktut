@@ -2,12 +2,16 @@
 import Done from "../Done/Done"
 
 import React from 'react'
+
+import Get from '../../components/Get/Get'
+
 import Arrange from '../Arrange/Arrange'
 import Questions from '../Questions/Questions'
 import Footer from '../../components/Footer/Footer'
 import About from '../About/About'
 import Housing from '../Housing/Housing'
 import { Link } from 'react-router-dom'
+
 
 
 
@@ -19,6 +23,8 @@ const Home = () => {
 	 </div>
 
     <div>
+
+      <Get/>
 
       home
       <Link to={'/filter'}>
@@ -32,6 +38,7 @@ const Home = () => {
        <Arrange/>
        <Questions/>
        <Footer/>
+
 
     </div>
 
