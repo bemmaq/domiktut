@@ -1,3 +1,14 @@
+
+
+
+const Footer = () => {
+  return (
+	
+			<div>Footer</div>
+		
+	)
+}
+
 import React from "react";
 import bg from "../../assets/svg/bg_photo.svg";
 
@@ -25,5 +36,6 @@ const Footer = () => {
     </>
   );
 };
+
 
 export default Footer;

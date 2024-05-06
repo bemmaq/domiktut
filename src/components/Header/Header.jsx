@@ -1,3 +1,12 @@
+
+
+
+const Header = () => {
+	return <div>Header</div>
+}
+
+export default Header
+
 import React, { useState } from "react";
 import Container from "../../Helpers/Container";
 import logotip from "../../assets/logotip.svg";
@@ -136,3 +145,4 @@ const Header = () => {
 };
 
 export default Header;
+
