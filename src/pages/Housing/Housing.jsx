@@ -13,10 +13,10 @@ const Housing = () => {
       <Link to={'/'}>
       
     <FaCircleArrowLeft style={{fontSize:"25px"}}/>
-      </Link>
-    </div>
+          </Link>
+        </div>
       <p className='pr-10 cursor-pointer' style={{color:"orange"}}>Сбросить Фильтры</p>
-    </div>
+      </div>
       <hr />
 
       <Container>
@@ -43,95 +43,95 @@ const Housing = () => {
             <div className='mt-20'>
               <h2 className='text-3xl'>Удобства</h2>
               <div className='flex gap-3 mt-6'>
-              <input type="checkbox" />
+                <input type="checkbox" />
             <p>Wi-Fi
 </p>
-            </div>
+              </div>
 
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Джакузи</p>
-            </div>
+                <input type="checkbox" />
+                <p>Джакузи</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Камин</p>
-            </div>
+                <input type="checkbox" />
+                <p>Камин</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Детская лощадка</p>
-            </div>
+                <input type="checkbox" />
+                <p>Детская лощадка</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Спортивная площадка</p>
-            </div>
+                <input type="checkbox" />
+                <p>Спортивная площадка</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Покерный стол</p>
-            </div>
+                <input type="checkbox" />
+                <p>Покерный стол</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Закрытая парковка</p>
-            </div>
+                <input type="checkbox" />
+                <p>Закрытая парковка</p>
+              </div>
 
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Сцена для артистов</p>
-            </div>
+                <input type="checkbox" />
+                <p>Сцена для артистов</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Игровая приставка</p>
-            </div>
+                <input type="checkbox" />
+                <p>Игровая приставка</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Бассейн с подогревом</p>
-            </div>
+                <input type="checkbox" />
+                <p>Бассейн с подогревом</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Близость к водоему</p>
-            </div>
+                <input type="checkbox" />
+                <p>Близость к водоему</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Беседка</p>
-            </div>
+                <input type="checkbox" />
+                <p>Беседка</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Японское фурако (чан)</p>
-            </div>
+                <input type="checkbox" />
+                <p>Японское фурако (чан)</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
-            <p>Караоке</p>
-            </div>
+                <input type="checkbox" />
+                <p>Караоке</p>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
+                <input type="checkbox" />
             <p>Место для выездной регистрации
 </p>
-            </div>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
+                <input type="checkbox" />
             <p>Профессиональная кухня (подходит для кейтеринга)
 </p>
-            </div>
+              </div>
 
             <div className='flex gap-3'>
-              <input type="checkbox" />
+                <input type="checkbox" />
             <p>Световое и музыкальное оборудование
 </p>
-            </div>
+              </div>
 
 
               
@@ -144,44 +144,44 @@ const Housing = () => {
             <h2 className='text-3xl'>Бассейн</h2>
             <div className='flex gap-3 mt-6'>
               <input type="checkbox" />
-            <p>Летний</p>
+              <p>Летний</p>
             </div>
             <div className='flex gap-3'>
               <input type="checkbox" />
-            <p>Внутренний</p>
+              <p>Внутренний</p>
             </div>
             <div className='flex gap-3'>
               <input type="checkbox" />
-            <p>Купель</p>
+              <p>Купель</p>
             </div>
 
             <div className='mt-[120px]'>
               <h2 className='text-3xl'>Развлечения</h2>
 
               <div className='flex gap-3 mt-6'>
-              <input type="checkbox" />
-            <p>Сауна или баня (без веников)</p>
-            </div>
+                <input type="checkbox" />
+                <p>Сауна или баня (без веников)</p>
+              </div>
 
             <div className='flex gap-3 '>
-              <input type="checkbox" />
-            <p>Русская баня на дровах</p>
-            </div>
+                <input type="checkbox" />
+                <p>Русская баня на дровах</p>
+              </div>
 
             <div className='flex gap-3 '>
-              <input type="checkbox" />
-            <p>Хаммам</p>
-            </div>
+                <input type="checkbox" />
+                <p>Хаммам</p>
+              </div>
 
             <div className='flex gap-3 '>
-              <input type="checkbox" />
-            <p>Бильярд</p>
-            </div>
+                <input type="checkbox" />
+                <p>Бильярд</p>
+              </div>
 
             <div className='flex gap-3 '>
-              <input type="checkbox" />
-            <p>Настольный теннис</p>
-            </div>
+                <input type="checkbox" />
+                <p>Настольный теннис</p>
+              </div>
             </div>
 
 
