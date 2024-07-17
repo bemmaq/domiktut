@@ -1,18 +1,3 @@
-
-import { configureStore } from '@reduxjs/toolkit'
-import { productsReducer } from './slices/productSlice'
-import { productsReducerInfo } from './slices/productInfoSlice'
-
-
-const store = configureStore({
-	reducer: {
-		products: productsReducer,
-		productsInfo: productsReducerInfo,
-	},
-})
-
-export default store
-
 import { configureStore } from "@reduxjs/toolkit";
 import ProductSlices from "./ProductSlices";
 import cardSlice from "./slice/cardSlice";
@@ -24,10 +9,13 @@ const store = configureStore({
         card:cardSlice
     }
 })
+<<<<<<< HEAD
+=======
 
 export default store
 
 
 
+>>>>>>> 9b30b72886ec166d250cce87c23518233b1a095c
 export default store
 

@@ -6,7 +6,7 @@ import Swipers from "../Swiper/Swipers";
 const DetailHome = () => {
   return (
     <div className="flex gap-[290px]">
-      <div className="text-white pt-[13rem]">
+      <div className="text-white pt-[9rem]">
         <p className="text-6xl font-semibold pl-[105px] leading-snug">
           Аренда коттеджей <br />
           и домов в Бишкеке

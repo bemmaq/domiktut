@@ -3,10 +3,13 @@ import styles from './Container.module.css'
 
 const Container = ({children}) => {
   return (
+<>
+    <div className={styles.wrapper}>
 
-    <div className={styles.wrapper}></div>
+    </div>
 
     <div className='w-[1200px] m-auto'>{children}</div>
+</>
 
   )
 }

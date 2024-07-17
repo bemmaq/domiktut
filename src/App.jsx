@@ -1,9 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
-
 import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Detail from './pages/detail/Detail'
 import Home from './pages/Home/Home'
+import Detail from './pages/detail/Detail';
+import Footer2 from './components/Footer2/Footer2';
+import Footer from './components/Footer/Footer';
+import Questions from './pages/Questions/Questions';
+import Catalog from './pages/Catalog/Catalog';
+
+
 
 const App = () => {
 	return (
@@ -11,36 +15,20 @@ const App = () => {
 			<Header />
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/detail/:id' element={<Detail />} />
+				<Route path='/detail/:id' element={<Detail/>} />
+        <Route path='/questions' element={<Questions/>}/>
+        <Route path='/catalog' element={<Catalog/>}/>
 			</Routes>
-			<Footer />
+			<Footer/>
+      <Footer2/>
 		</div>
 	)
 
-import Home from './pages/Home/Home'
-import About from './pages/About/About'
-import Catalog from './pages/Catalog/Catalog'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Housing from './pages/Housing/Housing'
-import Footer2 from './components/Footer2/Footer2'
 
 
-const App = () => {
-  return (
-    <div>
-    <Header/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/catalog' element={<Catalog/>}/>
-        <Route path='/filter' element={<Housing/>}/>
-      </Routes>
-      
-      <Footer2/>
-    </div>
-  )
 
+     
 }
+
 
 export default App

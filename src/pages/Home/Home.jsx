@@ -1,31 +1,24 @@
-
-import Done from "../Done/Done"
-
 import React from 'react'
-
-import Get from '../../components/Get/Get'
-
 import Arrange from '../Arrange/Arrange'
 import Questions from '../Questions/Questions'
 
 import About from '../About/About'
-import Housing from '../Housing/Housing'
-import { Link } from 'react-router-dom'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
 
 
+
+import Get from './../../components/Get/Get';
 
 
 
 const Home = () => {
   return (
-
-	 <div>
-		<Done/>
-	 </div>
-
     <div>
+<<<<<<< HEAD
+   
+     
+
+      <Get/>
+=======
 
    <Header/>
 
@@ -39,16 +32,15 @@ const Home = () => {
 
 </button>
       </Link>
+>>>>>>> 9b30b72886ec166d250cce87c23518233b1a095c
       
       <About/>
        <Arrange/>
        <Questions/>
-       <Footer/>
+      
       
 
-
     </div>
-
   )
 }
 

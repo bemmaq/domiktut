@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <div 
-      className="bg-cover bg-center h-screen mt-5 pt-60 mb-40"
+      className="bg-cover bg-center h-screen mt-5  mb-20"
       style={{ backgroundImage: `url(${about})` }}
       >
       <Container>

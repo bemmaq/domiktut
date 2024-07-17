@@ -1,11 +1,7 @@
 
 
 
-const Header = () => {
-	return <div>Header</div>
-}
 
-export default Header
 
 import React, { useState } from "react";
 import Container from "../../Helpers/Container";
@@ -44,17 +40,17 @@ const Header = () => {
         className="bg-cover bg-center h-screen"
         style={{ backgroundImage: `url(${bg})` }}
       >
-        <div className="w-[1400px] m-auto  flex justify-between pt-5 fixed ml-11">
+        <div className="w-[1400px] m-auto  flex justify-between pt-5  ml-11">
           <div>
             <img src={logotip} alt="" />
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-1">
             <div>
-              <img className="pt-1" src={nav} width={10} alt="" />
+              <img  className="pt-[6px]" src={nav} width={10} alt="" />
             </div>
             <div>
-              <select className="bg-transparent text-white">
-                <option>Бишкек</option>
+              <select className="bg-transparent text-white outline-none">
+                <option >Бишкек</option>
                 <option>Баткен</option>
                 <option>Ыссык-Кол</option>
               </select>
@@ -74,7 +70,7 @@ const Header = () => {
           </div>
 
           <div className="flex text-white gap-[30px]">
-            <Link onClick={ClickString}>
+            <Link onClick={ClickString} to={'/questions'}>
               <p className="hover:text-orange-600 cursor-pointer delay-200 ease-in">
                 Частые вопросы
               </p>

@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import Container from "../../Helpers/Container";
 import iconsFilter from "../../assets/svg/Frame.svg";
 import iconsStrelka from "../../assets/svg/arrow down.svg";
-import iconsfavourite from "../../assets/svg/Vector.svg";
+import iconsfavourite from "../../assets/svg/heart.svg";
 import iconsfavourite2 from "../../assets/svg/icon_favourite.svg";
 import iconsUsers from "../../assets/svg/Vector (4).svg";
 import icon1 from "../../assets/svg/bed (Traced).svg";
